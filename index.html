@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demo Pipes and Filters - Unicomfacauca</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Demostración Arquitectura Pipes and Filters</h1>
+        <h2>Ingeniería de Sistemas - Unicomfacauca</h2>
+
+        <form id="textForm">
+            <label for="texto">Ingresa el texto a procesar:</label><br />
+            <textarea id="texto" name="texto" rows="4"></textarea><br />
+            <input type="submit" value="Procesar Texto" />
+        </form>
+
+        <div id="error" class="error" style="display:none;"></div>
+
+        <div id="results" style="display:none;">
+            <div class="canvas-container">
+                <h2>Visualización del Pipeline:</h2>
+                <canvas id="pipelineCanvas" width="800" height="250"></canvas>
+            </div>
+
+            <div class="resultados">
+                <h2>Resultados del Pipeline (Texto):</h2>
+                <div id="pipelineResults"></div>
+                <hr />
+                <h2>Resultado Final:</h2>
+                <pre id="finalResult"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
