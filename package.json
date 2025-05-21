@@ -1,0 +1,24 @@
+{
+  "name": "demo-pipes-filters",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paulacanola/trabajo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paulacanola/trabajo/issues"
+  },
+  "homepage": "https://github.com/Paulacanola/trabajo#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
